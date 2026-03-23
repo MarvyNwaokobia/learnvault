@@ -15,9 +15,9 @@ export const LanguageSelector: React.FC = () => {
 			style={{
 				padding: "6px 10px",
 				borderRadius: "8px",
-				background: "rgba(255, 255, 255, 0.1)",
-				color: "#f3f4f6",
-				border: "1px solid rgba(255, 255, 255, 0.2)",
+				background: "transparent",
+				color: "var(--sds-clr-gray-12, #111827)",
+				border: "1px solid var(--sds-clr-gray-06, #d1d5db)",
 				cursor: "pointer",
 				fontSize: "0.9rem",
 				outline: "none",
